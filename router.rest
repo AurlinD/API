@@ -13,3 +13,16 @@ Content-type: application/json
   "name": "Amazing person",
   "subscribedToChannel": "Urlan"
 }
+
+###
+
+DELETE http://localhost:3000/subscribers/63d6c53cd632bd961de21ad1
+
+###
+
+PATCH http://localhost:3000/subscribers/63d6c8aa5d26be7eb0a62818
+Content-type: application/json
+
+{
+  "name": "New Name" 
+}
